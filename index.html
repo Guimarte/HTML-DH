@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>Programador Web Junior</h1>
-        <ul type ="none">
+        <ul type="none">
             <li>Guilherme Martins Silva</li>
             <li><a href="tel:+55 11 98134 - 6031">+55 11 98134 - 6031</a></li>
             <li><a href="https://github.com/Guimarte/" target="_blank">Meu GitHub</a></li>
             <l><a href="https://www.linkedin.com/in/guilherme-martins-0397ab17b/" target="_blank">Meu Linkedin</a></l>
             <br>
-            <l><a href="mailto:guimartinsstyle@gmail.com?subject=Vaga%20de%20Programador%20Jr&body=Olá,%20gostei%20do%20seu%20perfil">guimartinsstyle@gmail.com</a></l>
+            <l><a
+                    href="mailto:guimartinsstyle@gmail.com?subject=Vaga%20de%20Programador%20Jr&body=Olá,%20gostei%20do%20seu%20perfil">guimartinsstyle@gmail.com</a>
+            </l>
             <br>
-            <l><a href='https://api.whatsapp.com/send?phone=+5511981346031&text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20seu%20curriculo%20e%20gostaria%20de%20falar%20sobre%20a%20vaga&source=&data=&app_absent='target="_blank">Meu whatsapp</a></l>
+            <l><a href='https://api.whatsapp.com/send?phone=+5511981346031&text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20seu%20curriculo%20e%20gostaria%20de%20falar%20sobre%20a%20vaga&source=&data=&app_absent='
+                    target="_blank">Meu whatsapp</a></l>
         </ul>
         <hr>
-<figure class="image is-128x128">
-  <img class="is-rounded" src="./assets/image/guilherme.jpg">
-</figure>
-       
+        <figure class="image is-128x128">
+            <img class="is-rounded" src="./assets/image/guilherme.jpg">
+        </figure>
+
     </header>
     <main>
         <section>
             <h2>Sobre</h2>
-            <p>Guilherme, 28 anos. Morador da cidade de Guarulhos, iniciando na área de programação, em busca de novas oportunidades com muita vontade de aprender</p>
+            <p>Guilherme, 28 anos. Morador da cidade de Guarulhos, iniciando na área de programação, em busca de novas
+                oportunidades com muita vontade de aprender</p>
         </section>
         <section>
             <h2>Skills</h2>
@@ -37,45 +43,45 @@
                 <li>Trabalho em equipe</li>
                 <li>Agilidade</li>
                 <li>Flexibilidade e jogo de cintura</li>
-            </ul>           
+            </ul>
             <h3>Hard Skills</h3>
             <ul>
                 <li>
-                <h4>Front End</h4>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React.JS</li>
-                </ul>
+                    <h4>Front End</h4>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React.JS</li>
+                    </ul>
                 </li>
-                 <li>
-                <h4>Back End</h4>
-                <ul>
-                    <li>PHP</li>
-                    <li>Node</li>
-                    <li>MongoDB</li>
-                    
-                </ul>
-            </li> 
+                <li>
+                    <h4>Back End</h4>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Node</li>
+                        <li>MongoDB</li>
+
+                    </ul>
+                </li>
             </ul>
 
         </section>
         <section>
             <h2>Formação</h2>
             <table>
-              
+
                 <tr>
                     <th colspan="3">Ano</th>
-                    
+
                 </tr>
-                <tr>                   
+                <tr>
                     <td>Programação Web Full Stack</td>
                     <td>Digital House</td>
                     <td rowspan="2">Extensão</td>
                 </tr>
-                  <tr>
-                                      
+                <tr>
+
                     <td>LPI I</td>
                     <td>SENAC - SJRP</td>
 
@@ -97,14 +103,32 @@
                 </tr>
             </table>
         </section>
-<hr>
-        <section>
-            <h4>Qualquer duvida ou sugestão, deixe seu contato abaixo. Ficarei feliz em entrar em contato para trocarmos ideias e sugestões.</h4>
-            <label for="nome">Insira seu nome</label>
-            <input type="text" name="nome" id="nome">
-            <label for="fone">Telefone</label>
-            <input type="tel" name="fone" id="fone">
+        <hr>
 
+        <section>
+            <h4>Qualquer duvida ou sugestão, deixe seu contato abaixo. Ficarei feliz em entrar em contato para trocarmos
+                ideias e sugestões.</h4>
+            <p>Entre em contato através do formulario a seguir. Retornarei o mais brevemente possível</p>
+            <form action="obrigado.html" method="post" enctype="multipart/form-data">
+                <label for="nome">Insira seu nome:</label>
+                <input type="text" name="nome" id="nome">
+                <label for="fone">Telefone:</label>
+                <input type="tel" name="fone" id="fone">
+                <label for="">Empresa Interessada:</label>
+                <input type="text" name="empresa" id="">
+                <label for="uf">Unidade Federativa</label>
+                <select name="uf" id="uf">
+                    
+                    <option value="" disabled selected>UF</option>
+                    <option value="">AC</option>
+                    <option value="">AM</option>
+                </select>
+                <br>
+                <label for="">Deixe aqui suas sugestões e elogios:</label><br>
+                <textarea name="sug" id="" cols="150" rows="4"></textarea>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
 
 
@@ -114,7 +138,11 @@
     </main>
     <hr>
     <footer>
-        <p> Guilherme Martins Silva - 2020 &copy; | <a href="mailto:guimartinsstyle@gmail.com?subject=Vaga%20de%20Programador%20Jr&body=Olá,%20gostei%20do%20seu%20perfil">guimartinsstyle@gmail.com</a> | <a href='https://api.whatsapp.com/send?phone=+5511981346031&text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20seu%20curriculo%20e%20gostaria%20de%20falar%20sobre%20a%20vaga&source=&data=&app_absent='target="_blank">Meu whatsapp</a> </p>
+        <p> Guilherme Martins Silva - 2020 &copy; | <a
+                href="mailto:guimartinsstyle@gmail.com?subject=Vaga%20de%20Programador%20Jr&body=Olá,%20gostei%20do%20seu%20perfil">guimartinsstyle@gmail.com</a>
+            | <a href='https://api.whatsapp.com/send?phone=+5511981346031&text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20seu%20curriculo%20e%20gostaria%20de%20falar%20sobre%20a%20vaga&source=&data=&app_absent='
+                target="_blank">Meu whatsapp</a> </p>
     </footer>
 </body>
+
 </html>

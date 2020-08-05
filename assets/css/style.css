@@ -1,3 +1,28 @@
+/* Resets*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
 body{
-    background-color: aqua
+        padding: 32px;
+        background-color: #dfdfdf;
+        
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: crimson
+}
+
+
+[data-func*='foto']{
+    border-radius: 50%;
 }

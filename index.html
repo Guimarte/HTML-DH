@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../HTML-DH/assets/css/style.css">
-    
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>CV</title>
 </head>
 
 <body>
+   
+    <img data-func='foto' src="./assets/image/guilherme.jpg" alt="Melhor Aluno" >
     <header>
         <h1>Programador Web Junior</h1>
-        <ul type="none">
+        <ul type="none" class="destaque">
             <li>Guilherme Martins Silva</li>
             <li><a href="tel:+55 11 98134 - 6031">+55 11 98134 - 6031</a></li>
             <li><a href="https://github.com/Guimarte/" target="_blank">Meu GitHub</a></li>
@@ -25,10 +27,7 @@
                     target="_blank">Meu whatsapp</a></l>
         </ul>
         <hr>
-        <figure class="image is-128x128">
-            <img class="is-rounded" src="./assets/image/guilherme.jpg">
-        </figure>
-
+        
     </header>
     <main>
         <section>
@@ -36,7 +35,7 @@
             <p>Guilherme, 28 anos. Morador da cidade de Guarulhos, iniciando na área de programação, em busca de novas
                 oportunidades com muita vontade de aprender</p>
         </section>
-        <section>
+        <section class="destaque">
             <h2>Skills</h2>
             <h3>Soft Skills</h3>
             <ul>
@@ -99,7 +98,7 @@
                 </tr>
                 <tr>
                     <td>Microplay Informatica</td>
-                    <td>Técnico de Informatica</td>
+                    <td> Técnico de Informatica</td>
                     <td>04/2014 - 05/2015</td>
                 </tr>
             </table>
@@ -110,7 +109,7 @@
             <h4>Qualquer duvida ou sugestão, deixe seu contato abaixo. Ficarei feliz em entrar em contato para trocarmos
                 ideias e sugestões.</h4>
             <p>Entre em contato através do formulario a seguir. Retornarei o mais brevemente possível</p>
-            <form action="obrigado.html" method="post" >
+            <form action="obrigado.html" method="get" class="destaque" >
                 <label for="nome">Insira seu nome:</label>
                 <input type="text" name="nome" id="nome">
                 <label for="fone">Telefone:</label>
